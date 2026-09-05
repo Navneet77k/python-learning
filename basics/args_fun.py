@@ -3,8 +3,8 @@ def average_number(*args):
     average=0
     for num in args:
         total += num
-        average=total/len(args)
 
+    average=total/len(args)
     return average
 
 x=average_number(10,20,30,40)
